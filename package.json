@@ -1,0 +1,27 @@
+{
+  "name": "graphql-tutorial",
+  "version": "0.0.1",
+  "description": "Tutorial Graph QL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel-watch server.js"
+  },
+  "keywords": [
+    "graph-ql"
+  ],
+  "author": "freend",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "babel-watch": "^2.0.7",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "mongoose": "^5.4.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
